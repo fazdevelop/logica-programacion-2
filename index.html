@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertidor de Grados</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Grados Celcius a Kelvin y Farenheit</h1>
+        <div class="container-celcius">
+            <h2>Grados Celcius</h2>
+            <form onsubmit="return false">
+                <label for="gradosCelsius"></label>
+                <input type="number" id="gradosCelsius" placeholder="Ingrese la temperatura">
+                <input type="button" id="convert" onclick="convertidores()" value="Convertir">
+            </form>
+        </div>
+        <div class="container-converts">
+            <div class="converts" id="kelvin-box">
+                <h2>Grados Kelvin</h2>
+                <p><strong id="kelvin"></strong></p>
+            </div>
+            <div class="converts" id="farenheit-box">
+                <h2>Grados Farenheit</h2>
+                <p><strong id="farenheit"></strong></p>
+            </div>
+        </div>
+    </div>
+<script type="text/javascript" src="scripts.js"></script> 
+</body>
+</html>

@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #57d8d8;
+}
+h1 {
+    font-size: 40px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px 50px;
+    padding: 20px;
+    display: flex;
+    background-color: #d8cf54;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+}
+
+.container-celcius {
+    margin-bottom: 20px;
+    align-items: center;
+    display: flex;
+    
+}
+.container-celcius h2{
+    text-align: center;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    padding-top: 2%;
+}
+
+label {
+    margin-right: 10px;
+}
+
+input {
+    padding: 8px;
+    font-size: 20px;
+}
+
+.container-converts {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.converts {
+    flex: 1;
+    border: 2.3px solid rgb(10, 112, 104);
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.converts h2 {
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+#kelvin-box {
+    margin-right: 20px;
+}
+#farenheit-box {
+    margin-left: 20px;
+}
+
+.converts p {
+    text-align: center;
+}
+strong {
+    color: #072424;
+    font-size: 40px;
+}
